@@ -1,1 +1,21 @@
+package main
 
+import "fmt"
+
+func main() {
+
+	slice := []string{"a", "b", "c", "d", "e", "f", "g", "h"}
+
+	var valor string
+
+	fmt.Print("Insira um valor: ")
+	fmt.Scanln(&valor)
+
+	newslice := []string{}
+	for _, value := range slice {
+		if value != valor {
+			newslice = append(newslice, value)
+		}
+	}
+	fmt.Println("O Slice fica: ", newslice)
+}
