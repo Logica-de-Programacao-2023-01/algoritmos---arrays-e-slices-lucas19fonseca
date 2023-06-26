@@ -11,7 +11,7 @@ func main() {
 		anterior := list[i-1]
 		atual := list[i]
 
-		if anterior > atual {
+		if last > atual {
 			crescente = false
 			break
 		}
