@@ -6,10 +6,10 @@ func main() {
 
 	slice := []string{"a", "b", "c", "d", "e", "f", "g", "h"}
 
-	var valor string
+	var value string
 
-	fmt.Print("Insira um valor: ")
-	fmt.Scanln(&valor)
+	fmt.Print("Insira um value: ")
+	fmt.Scanln(&value)
 
 	newslice := []string{}
 	for _, value := range slice {
