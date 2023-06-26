@@ -11,9 +11,9 @@ func main() {
 	fmt.Scanln(&num)
 
 	encontrado := false
-	for _, valor := range array {
+	for _, value := range array {
 
-		if num == valor {
+		if num == value {
 			encontrado = true
 			break
 		}
