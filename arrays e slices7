@@ -11,16 +11,16 @@ func main() {
 	fmt.Print("Informe um número inteiro: ")
 	fmt.Scanln(&num)
 
-	encontrado := false
+	found := false
 	for _, valor := range slice {
 
 		if num == valor {
-			encontrado = true
+			found = true
 			break
 		}
 	}
 
-	if encontrado {
+	if found {
 		fmt.Println("O número pertence à Slice!")
 	} else {
 		slice = append(slice, num)
