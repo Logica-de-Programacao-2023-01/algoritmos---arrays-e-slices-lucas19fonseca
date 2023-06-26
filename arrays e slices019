@@ -16,5 +16,5 @@ func main() {
 		sum[i] = conj1[i] + conj2[i]
 		i++
 	}
-	fmt.Println("A soma é: ", sum)
+	fmt.Println("the sum is: ", sum)
 }
