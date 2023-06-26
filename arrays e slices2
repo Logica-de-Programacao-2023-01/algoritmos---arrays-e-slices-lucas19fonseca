@@ -8,5 +8,5 @@ func main() {
 
 	slice = append(slice[:2], slice[3:]...)
 
-	fmt.Println("Slice resultante =", slice)
+	fmt.Println("Slice frist =", slice)
 }
