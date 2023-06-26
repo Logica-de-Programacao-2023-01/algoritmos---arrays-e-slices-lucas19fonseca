@@ -6,7 +6,7 @@ func main() {
 
 	array := [3][2]int{}
 	var n int
-	var linha int = 0
+	var line int = 0
 	var coluna int = 0
 
 	for {
@@ -14,14 +14,14 @@ func main() {
 			break
 		}
 
-		fmt.Printf("Insira o número da linha %d e da coluna %d: ", linha, coluna)
+		fmt.Printf("Insira o número da line %d e da coluna %d: ", line, coluna)
 		fmt.Scan(&n)
 		array[linha][coluna] = n
 		coluna++
-		fmt.Printf("Insira o número da linha %d e da coluna %d: ", linha, coluna)
+		fmt.Printf("Insira o número da line %d e da coluna %d: ", line, coluna)
 		fmt.Scan(&n)
-		array[linha][coluna] = n
-		linha++
+		array[line][coluna] = n
+		line++
 		coluna--
 	}
 	fmt.Println(array)
