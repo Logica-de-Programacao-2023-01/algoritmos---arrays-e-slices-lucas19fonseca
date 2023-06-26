@@ -7,19 +7,19 @@ func main() {
 	fmt.Print("Digite um número: ")
 	fmt.Scan(&number)
 
-	var primos []int
+	var cousins []int
 
 	for i := 2; i <= number; i++ {
-		primo := true
+		cousins := true
 		for j := 2; j < i; j++ {
 			if i%j == 0 {
-				primo = false
+				cousins = false
 				break
 			}
 		}
-		if primo {
-			primos = append(primos, i)
+		if cousins {
+			cousins = append(cousins, i)
 		}
 	}
-	fmt.Println(primos)
+	fmt.Println(cousins)
 }
