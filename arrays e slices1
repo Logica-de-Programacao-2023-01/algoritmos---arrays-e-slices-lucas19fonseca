@@ -8,8 +8,8 @@ func main() {
 
 	sum := 0
 
-	for _, valor := range nums {
-		sum += valor
+	for _, value := range nums {
+		sum += value
 	}
 
 	fmt.Println("A soma dos valores do array é:", sum)
