@@ -12,5 +12,5 @@ func main() {
 			slice = append(slice, array[i])
 		}
 	}
-	fmt.Println("Nova lista com números maiores que 5: ", slice)
+	fmt.Println("New list with numbers greater than 5: ", slice)
 }
