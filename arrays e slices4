@@ -6,12 +6,12 @@ func main() {
 
 	var tamanho int
 
-	fmt.Print("Informe qual é o tamanho da sua Slice: ")
-	fmt.Scan(&tamanho)
+	fmt.Print("Informe qual é o size da sua Slice: ")
+	fmt.Scan(&size)
 
-	slice := make([]int, tamanho)
+	slice := make([]int, size)
 
-	for i := 0; i < tamanho; i++ {
+	for i := 0; i < size; i++ {
 		fmt.Println("Informe o valor do elemento %d:", i+1)
 		fmt.Scan(&slice[i])
 	}
